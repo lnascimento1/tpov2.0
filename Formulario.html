@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <img src="logo.png" alt="" id="logo">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+
+</head>
+
+<body>
+    
+    <h2>Quiero recibir información</h2>
+    <section>
+        <form name="fvalida">
+            <table >
+                <tr>
+                    <td>Nombre: </td>
+                    <td><input type="text" name="nombre" size="30" maxlength="100"></td>
+                </tr>
+                <tr>
+                    <td>Edad: </td>
+                    <td><input type="text" name="edad" size="3" maxlength="2"></td>
+                </tr>
+
+                <tr>
+                    <td>Mail: </td>
+                    <td><input type="email" name="Mail" size="30" maxlength="100"> </td>
+                </tr>
+                    
+                <tr>
+                    <td>Programa de interés:</td>
+                    <td>
+                        <select name="interes">
+                            <option value="Elegir">Elegir
+                            </option>
+                            <option value="Comercial">Voluntario Global </option>
+                            <option value="Clientes">Talento Global </option>
+                            <option value="Proveedores">Profesor Global </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Mail: </td>
+                    <td><input type="checkbox" name="terminos"> Acepto los terminos y condiciones </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center"><input type="button" value="Enviar" onclick="valida_envia()"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+        <script>
+            
+            function valida_envia() {
+                
+                if (document.fvalida.nombre.value.length == 0) {
+                    alert("Tiene que escribir su nombre")
+                    document.fvalida.nombre.focus()
+                    return 0;
+                }
+    
+                edad = document.fvalida.edad.value
+                edad = validarEntero(edad)
+                document.fvalida.edad.value = edad
+                if (edad == "") {
+                    alert("Tiene que introducir un número entero en su edad.")
+                    document.fvalida.edad.focus()
+                    return 0;
+                } else {
+                    if (edad < 18) {
+                        alert("Debe ser mayor de 18 años.")
+                        document.fvalida.edad.focus()
+                        return 0;
+                    }
+                }
+    
+                if (document.fvalida.Mail.value.length == 0) {
+                    alert("Tiene que escribir su correo electronico")
+                    document.fvalida.nombre.focus()
+                    return 0;
+                }
+
+                if (document.fvalida.interes.selectedIndex == 0) {
+                    alert("Debe seleccionar un motivo de su contacto.")
+                    document.fvalida.interes.focus()
+                    return 0;
+                }
+
+    
+                alert("Muchas gracias por enviar el formulario");
+                document.fvalida.submit();
+            }
+    
+            function validarEntero(valor) {
+                valor = parseInt(valor)
+    
+                if (isNaN(valor)) {
+                    return ""
+                } else {
+                    return valor
+                }
+            }
+        </script>
+</body>
+
+
+</html>

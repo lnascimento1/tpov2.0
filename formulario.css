@@ -1,0 +1,171 @@
+*{
+    margin: 15px;
+    padding: 10px;
+    
+    
+}
+
+
+body{
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+    /*animación*/
+#logo{
+    animation-name: logo;
+      animation-duration: 3s;  
+     
+    }
+    
+    @keyframes logo {
+      from {background-color: rgb(3, 126, 242);}
+      to {background-color: rgb(255, 255, 255);}
+    }
+  
+
+  td{
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+  }
+  tr{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+input{
+    color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+}
+
+option{
+    color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+}
+
+
+select{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+section{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: fit-content;
+  height: auto;
+  background-color: #EE9D94;
+  align-content: center;
+  float: center;
+  margin-left: 400px;
+}
+
+h2{
+  font-size: 1.563em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #FFF5CC;
+  color: #086e99;
+  text-align: center;
+  width: fit-content;
+  margin-left: 550px;
+}
+
+
+   /*______________celular MOTO G4 360x640___________________________*/
+   @media (max-width:640px){ 
+        
+    *{
+      
+      margin: 5px;
+      padding: 5px;
+      background-color: dodgerblue;
+    }
+      
+      body{
+        background-color: dodgerblue;
+      }
+ 
+
+
+    /*animación*/
+#logo{
+    animation-name: logo;
+      animation-duration: 3s;  
+     
+    }
+    
+    @keyframes logo {
+      from {background-color: rgb(3, 126, 242);}
+      to {background-color: rgb(255, 255, 255);}
+    }
+  
+
+  td{
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+  }
+  tr{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+input{
+    color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+}
+
+option{
+    color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+}
+
+
+select{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+section{
+ 
+  width: fit-content;
+  height: auto;
+  background-color: #EE9D94;
+  margin-right: -500px;
+  
+ 
+}
+
+h2{
+  font-size: 1.563em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #FFF5CC;
+  color: #086e99;
+  text-align: center;
+  width: fit-content;
+  
+}
+
+
+table{
+  width:fit-content,
+ 
+}
+
+form{
+  width: fit-content;
+  
+}
+
+   }

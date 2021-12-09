@@ -1,0 +1,442 @@
+
+*{
+    margin: 6px;
+    padding: 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+    /*animación*/
+#logo{
+    width:100%;
+    animation-name: logo;
+      animation-duration: 3s;  
+     
+    }
+    
+    @keyframes logo {
+      from {background-color: rgb(3, 126, 242);}
+      to {background-color: rgb(255, 255, 255);}
+    }
+  
+
+#main-header {
+	background: #EE9D94;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+    position: sticky;
+}
+
+
+#info{
+    width: auto;
+    
+}
+
+#info h4{
+    background-color:rgb(3, 126, 242);
+    color: rgb(255, 255, 255);
+}
+
+.conteiner{
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 126, 242)
+}
+.conteiner h2{
+    
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+}
+.conteiner p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin: 10px;
+    color:rgb(255, 255, 255);
+}
+
+#video{
+    border-radius: 4%;
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin: 10px;
+}
+
+h2{
+    font-size: 1.563em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(3, 126, 242);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3{
+    font-size: 1.563em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(3, 126, 242);
+    text-align: center;
+}
+
+h4 { 
+    font-size: 1.25em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+
+section{
+
+    background-color: rgb(3, 126, 242)
+    
+}
+
+p{
+    font-size: 17px;
+    position: static;
+    color: azure;
+    text-align: left;
+}
+footer{
+    color: darkblue;
+    background-color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#pfooter{
+    color: darkblue;
+}
+
+
+
+#registro{
+    
+    color: #086e99;    
+    background-color: #BFE3DF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+ 
+}
+#admision{
+    
+    color: #086e99;
+    background-color: #FFF5CC;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  
+}
+
+#experiencia{
+    
+    color: #086e99;
+    background-color: #FFD9BD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  
+}
+
+
+
+div p {
+    color: #0f332f;
+    text-align: left;
+    }
+#frase{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+    background-color: #EE9D94;  
+    width: auto;
+    height: 500px; 
+}
+
+#frase p{
+    color: rgba(15, 15, 14, 0.973);
+    text-align: right;
+}
+
+#frase1{
+    font-size: 16px;
+    color:rgb(255, 255, 255);}
+ 
+
+    #foto2{
+    border-radius: 4%;
+    width: 650px;
+    height: 400px;
+    float: left;
+    margin: 30px;
+    }
+
+#login1{
+    float: right;
+    width: 30%;
+    
+}
+
+#login{
+    width: fit-content;
+    height: fit-content;
+    float: center;
+}
+
+form{
+    background-color: #EE9D94;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: auto;
+    height: auto;
+    
+}
+
+div.col-auto{
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: fit-content;
+    
+}
+
+
+aside{
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+}
+
+/*
+#mapa{
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: auto;
+}
+*/
+
+
+
+.conteiner2{
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 126, 242)
+}
+.conteiner2 h2{
+    
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+}
+
+#mapa{
+    border-radius: 4%;
+    width: 800px;
+    height: 500px;
+    float: left;
+    margin: 30px;
+}
+
+#tabla{
+    margin: 0px;
+    text-align: justify;
+    margin-top: 60px;
+    font-size: 16px;
+    align-items: right;
+    color:rgb(255, 255, 255);
+}
+
+#prog{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+    /*
+
+
+    /*___________________________Escritorio____________________________________*/
+
+    @media (min-width: 1024px) {
+
+
+        .grid-container {
+            display: grid;
+            align-content: center;
+            grid-template-columns: auto auto auto;
+            grid-auto-rows: minmax(125px, auto);
+        flex-wrap: wrap;
+        align-content: flex-end;
+        width: auto;
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            }
+          
+        .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+          }
+        
+        }
+        
+    
+        
+            /*_____________________________________Tablet_____________________*/
+        
+        @media (max-width:1024px) and (min-width:768px) { 
+        
+            .grid-container {
+                display: grid flex;
+                align-content: center;
+                grid-template-columns: auto auto auto;
+                grid-auto-rows: minmax(125px, auto);
+            flex-wrap: wrap;
+            align-content: flex-end;
+            width: auto;
+                grid-gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+                }
+              
+            .grid-container > div {
+                background-color: rgba(15, 231, 62, 0.8);
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+              }
+            
+            
+    
+    
+            }
+        
+            
+        
+ /*______________celular MOTO G4 360x640___________________________*/
+        @media (max-width:640px){ 
+        
+    
+    
+            .grid-container {
+                display: grid flex;
+                align-content: center;
+                grid-template-columns: auto auto auto;
+                grid-auto-rows: minmax(125px, auto);
+            flex-wrap: wrap;
+            align-content: flex-end;
+            width: auto;
+                grid-gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+                }
+              
+            .grid-container > div {
+                background-color: rgba(231, 15, 15, 0.8);
+                text-align: center;
+                font-size: 30px;
+              }
+
+        
+
+            .conteiner{
+                width: 100%;
+                height: auto;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(3, 126, 242)
+            }
+            .conteiner h2{
+                background-color: burlywood;
+                text-align: center;
+                margin-top: 30px;
+                font-size: 30px;
+                color:rgb(255, 255, 255);
+            }
+            .conteiner p{
+                text-align: justify;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 16px;
+                margin: 10px;
+                color:rgb(255, 255, 255);
+            }
+            #video{
+                border-radius: 4%;
+                width: 300px;
+                height: 300px;
+          } 
+
+         #foto2{
+                            border-radius: 4%;
+                            width: 250px;
+                            height: 200px;
+                            }
+
+        
+        #login1{
+            width: 100%;
+
+            
+        }
+        #login{
+            width: 100%;
+            
+        }
+        
+        div.col-auto{
+            flex-wrap: wrap;
+            align-content: flex-end;
+            width: 90%;
+            
+        }
+
+        #frase{
+            font-family: 'Zen Kurenaido', sans-serif;
+            font-size: 20px;
+            background-color: #EE9D94;  
+            width: auto;
+            height: 700px; 
+        }
+
+        #mapa{
+            border-radius: 4%;
+            width: 250px;
+            height: 200px;
+            margin: 30px;
+        }
+        
+        #tabla{
+            margin: 0px;
+            text-align: justify;
+            margin-top: 60px;
+            font-size: 16px;
+            align-items: right;
+            color:rgb(255, 255, 255);
+        }
+
+        #main-header {
+            background: #EE9D94;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+
+        }
+    }
